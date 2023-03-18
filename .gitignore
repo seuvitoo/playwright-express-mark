@@ -3,4 +3,6 @@ node_modules/
 /playwright-report/
 /playwright/.cache/
 .DS_Store
+/apps/api/node_modules
+/apps/web/node_modules
 
