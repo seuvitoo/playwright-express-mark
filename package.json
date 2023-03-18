@@ -1,0 +1,15 @@
+{
+  "name": "playwright-express-mark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.31.2"
+  },
+  "scripts": {
+    "test": "yarn playwright test",
+    "test-nav": "yarn playwright test --headed",
+    "debug": "yarn playwright test tasks --debug"
+  }
+}
