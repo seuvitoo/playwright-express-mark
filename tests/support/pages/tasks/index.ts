@@ -5,11 +5,11 @@ export class TasksPage {
   readonly page: Page;
 
   constructor(page: Page) {
-    this.page = this.page;
+    this.page = page;
   }
 
   async go() {
-    await this.page.goto("http://localhost:3000/")
+    await this.page.goto("http://localhost:3000/");
   }
 
   async create(task: TaskModel) {

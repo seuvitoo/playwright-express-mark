@@ -4,7 +4,7 @@ import { deleteTaskByHelper, postTask } from "./support/helpers";
 
 import { TasksPage } from "./support/pages/tasks";
 
-test.only("deve cadastrar uma nova tarefa", async ({ page, request }) => {
+test("deve cadastrar uma nova tarefa", async ({ page, request }) => {
   const task: TaskModel = {
     name: "Ler um livro de TypeScript",
     is_done: false,
