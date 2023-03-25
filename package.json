@@ -8,7 +8,7 @@
     "@playwright/test": "^1.31.2"
   },
   "scripts": {
-    "test": "yarn playwright test",
+    "test": "yarn playwright test tasks",
     "test-nav": "yarn playwright test --headed",
     "debug": "yarn playwright test tasks --debug"
   }
